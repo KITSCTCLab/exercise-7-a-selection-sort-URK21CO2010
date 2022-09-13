@@ -1,3 +1,4 @@
+from typing import List
 def selectionSort(array, size) -> List[int]:
   for i in range(size):
     min = i
